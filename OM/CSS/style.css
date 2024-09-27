@@ -1,0 +1,36 @@
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/logo.css);
+@import url(components/nav-bar.css);
+@import url(components/banniere.css);
+@import url(components/end-bar.css);
+
+
+body {
+    margin: 0; /* Enlève les marges par défaut */
+   background-color: #ffffff;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:rgb(212, 217, 228)
+    margin:0px;
+}
+
+
+.social1{
+    font-size: 20px;
+    list-style-type: none;
+    color: aqua;
+}
+.social2{
+    font-size: 20px;
+    list-style-type: none;
+    color: aqua;
+}
+.social3{
+    font-size: 20px;
+    list-style-type: none;
+    color: aqua;
+}

@@ -1,0 +1,36 @@
+.button {
+    background-color: rgb(21, 78, 177); /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+    border: none; /* Enlève la bordure des boutons */
+    border-radius: 5px; /* Arrondit les coins des boutons */
+    cursor: pointer; /* Change le curseur en main */
+    margin: 8px; /* Marge autour des boutons */
+    font-size: 15px; /* Taille de la police des boutons */
+    font-weight: bold;/*texte en gras*/
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer
+}
+.icone {
+    width: 30px;
+}
+
+

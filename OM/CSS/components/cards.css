@@ -1,0 +1,83 @@
+.CARD{
+    display: flex; /* Active Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-evenly;
+    list-style: none; /* Enlève les puces des <li> */
+    padding: 0px;
+    margin: 0px;
+    align-items: center; /* Centre verticalement les éléments */
+
+}
+
+
+
+    
+
+    
+    .card-foot {
+        background-image: url(../../Images/dbd50596-301b-4836-8292-ec821271a634.jpeg) ;
+        padding: 30px;
+        width: 20%;
+        height: 350px;
+        object-fit: fill;
+        box-shadow: 10px 20px 50px rgba(0, 1, 1, 1);
+        margin: 5px 20px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Permanent Marker" ;
+        color: rgb(230, 158, 64);
+        background-size: cover;
+        background-position: center;
+        font-weight: normal;
+        text-align: center;
+        text-shadow: 3px 3px 5px rgb(28, 20, 4), 5px 5px 10px rgba(7, 29, 94, 0.7); 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .link2 {
+        color: white;
+        font-family:"Cinzel", system-ui;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(4, 38, 52);
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 10px;
+        text-shadow: 2px 2px 5px rgb(35, 5, 5), 5px 5px 10px rgba(46, 26, 5, 0.7);
+    }
+    
+    .card-ville {
+        background-image: url(../../Images/a731909b-381c-4b4a-873f-b36767fbd785.jpeg);
+        padding: 30px;
+        width: 20%;
+        height: 350px;
+        object-fit: fill;
+        box-shadow: 10px 20px 50px rgba(0, 1, 1, 1);
+        margin: 10px 0px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Permanent Marker" ;
+        background-size: cover;
+        font-weight: bold;
+        color: rgb(3, 37, 33);
+        text-align: center;
+        text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.7), 5px 5px 10px rgba(120, 155, 220, 0.7); 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .link3 {
+        color: white;
+        font-family:"Cinzel", system-ui;
+        display: inline-block;
+        padding: 5px 20px;
+        background-color: rgb(4, 38, 52);
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 10px;
+        text-shadow: 2px 2px 5px rgb(35, 5, 5), 5px 5px 10px rgba(46, 26, 5, 0.7);
+    
+    }

@@ -1,0 +1,53 @@
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+
+
+.Social-container{
+  position: fixed; /* Fixe la position des icônes */
+  top: 10px; /* Distance du haut de la page */
+  right: 20px; /* Distance de la droite */
+  z-index: 1000; /* Assure que les icônes sont au-dessus des autres éléments */
+}
+
+.Social-container a {
+  color: #333; /* Couleur des icônes */
+  font-size: 24px; /* Taille des icônes */
+  margin-left: 15px; /* Espace entre les icônes */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.Social-container a:hover {
+  color: #007BFF; /* Change la couleur au survol */
+}
+
+#scrollToTopBtn {
+  display: none; /* Masquer le bouton par défaut */
+  position: fixed; /* Rendre le bouton fixe */
+  bottom: 20px; /* Position en bas de la page */
+  right: 20px; /* Position à droite de la page */
+  background-color: #007BFF; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 10px 15px; /* Espacement intérieur */
+  font-size: 16px; /* Taille de la police */
+  cursor: pointer; /* Curseur pointer au survol */
+}
+
