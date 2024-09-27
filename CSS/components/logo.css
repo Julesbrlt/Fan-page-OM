@@ -1,0 +1,5 @@
+.logo-container {
+    background-color: #ffffff; /* Couleur de fond blanche */
+    padding: 15px; /* Espace intérieur autour du logo */
+    border-radius: 5px; /* Arrondit les coins du carré */  
+}

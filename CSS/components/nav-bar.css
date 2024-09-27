@@ -1,0 +1,46 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la nav-bar */
+.nav-bar {
+    width: 100%; /* Occupe toute la largeur de l'écran */
+    background-color: #ffffff; /* Couleur de fond de la barre de navigation */
+    padding: 5px 5px; /* Espacement en haut et en bas de la nav-bar */
+    margin: 0px;
+    position: fixed; /* Fixe la nav-bar en haut de la page */
+    top: 0; /* Positionne en haut */
+    width: 100%; /* Prend toute la largeur de l'écran */
+    padding: 5px 0; /* Espacement intérieur */
+    z-index: 1000; /* Assure que la nav-bar soit au-dessus des autres éléments */
+}
+
+/* Liste dans la nav-bar */
+.nav-bar ul {
+    display: flex; /* Active Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-evenly;
+    list-style: none; /* Enlève les puces des <li> */
+    padding: 0px;
+    margin: 0px;
+    align-items: center; /* Centre verticalement les éléments */
+}
+
+/* Espacement entre les éléments de la liste */
+.nav-bar li {
+    margin-right: 80px; /* Espace entre chaque lien */
+}
+
+/* Lien dans la nav-bar */
+.nav-bar a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #2FAEE0; /* Couleur du texte */
+    font-size: 30px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Effet au survol des liens */
+.nav-bar a:hover {
+    color: #BEA064; /* Change la couleur au survol */
+}
